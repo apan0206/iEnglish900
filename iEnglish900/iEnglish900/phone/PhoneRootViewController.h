@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CPBaseRootViewController.h"
 
-@interface PhoneRootViewController : UIViewController
+@interface PhoneRootViewController : CPBaseRootViewController
 
 @end

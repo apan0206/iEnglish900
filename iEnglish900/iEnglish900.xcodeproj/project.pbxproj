@@ -21,6 +21,7 @@
 		BA9319D0185862EC00218875 /* iEnglish900Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9319CF185862EC00218875 /* iEnglish900Tests.m */; };
 		BA9319DE1858646400218875 /* PhoneRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9319DC1858646400218875 /* PhoneRootViewController.m */; };
 		BA9319DF1858646400218875 /* PhoneRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9319DD1858646400218875 /* PhoneRootViewController.xib */; };
+		BA9319E318586B9000218875 /* CPBaseRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9319E218586B9000218875 /* CPBaseRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BA9319DB1858646400218875 /* PhoneRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneRootViewController.h; path = phone/PhoneRootViewController.h; sourceTree = "<group>"; };
 		BA9319DC1858646400218875 /* PhoneRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneRootViewController.m; path = phone/PhoneRootViewController.m; sourceTree = "<group>"; };
 		BA9319DD1858646400218875 /* PhoneRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PhoneRootViewController.xib; path = phone/PhoneRootViewController.xib; sourceTree = "<group>"; };
+		BA9319E118586B9000218875 /* CPBaseRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPBaseRootViewController.h; sourceTree = "<group>"; };
+		BA9319E218586B9000218875 /* CPBaseRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPBaseRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		BA9319AA185862EC00218875 /* iEnglish900 */ = {
 			isa = PBXGroup;
 			children = (
+				BA9319E018586B6100218875 /* common */,
 				BA9319DA1858643F00218875 /* pad */,
 				BA9319D91858643900218875 /* phone */,
 				BA9319B3185862EC00218875 /* AppDelegate.h */,
@@ -166,6 +170,15 @@
 			children = (
 			);
 			name = pad;
+			sourceTree = "<group>";
+		};
+		BA9319E018586B6100218875 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				BA9319E118586B9000218875 /* CPBaseRootViewController.h */,
+				BA9319E218586B9000218875 /* CPBaseRootViewController.m */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				BA9319B5185862EC00218875 /* AppDelegate.m in Sources */,
 				BA9319DE1858646400218875 /* PhoneRootViewController.m in Sources */,
+				BA9319E318586B9000218875 /* CPBaseRootViewController.m in Sources */,
 				BA9319B1185862EC00218875 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
